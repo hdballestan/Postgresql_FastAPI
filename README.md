@@ -1,6 +1,42 @@
 # prueba_1_FastAPI
 Servicio sencillo en FastAPI que se conecta a una base de datos psql.
 
+## Configuración del Entorno Virtual y Requisitos
+
+#### Creación de un Entorno Virtual (Opcional)
+
+Si deseas utilizar un entorno virtual para gestionar las dependencias de este proyecto de manera aislada, sigue estos pasos:
+
+##### Linux
+
+```bash
+# Instala virtualenv si no está instalado
+pip install virtualenv 
+# Crea un nuevo entorno
+virtual virtualenv venv # o python3 -m venv venv
+# Activa el entorno virtual
+source venv/bin/activate
+```
+##### Windows
+
+```bash
+# Instala virtualenv si no está instalado 
+pip install virtualenv 
+# Crea un nuevo entorno virtual 
+virtualenv venv 
+# Activa el entorno virtual 
+venv\Scripts\activate
+```
+#### Instalación de Dependencias
+
+Instala las dependencias necesarias utilizando `pip` y el archivo `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+Este comando instalará todas las bibliotecas requeridas para ejecutar la aplicación, incluyendo FastAPI, psycopg2, pandas, entre otras especificadas en el archivo `requirements.txt`.
+
+Una vez completados estos pasos, podrás ejecutar el proyecto de manera aislada dentro del entorno virtual configurado, asegurando la compatibilidad y gestión eficiente de las dependencias.
+
 ## Descripción del Código
 
 Este repositorio contiene un conjunto de scripts y archivos para interactuar con una base de datos PostgreSQL utilizando Python, utilizando tanto el módulo psycopg2 como pandas para ejecutar consultas SQL y manejar errores de conexión y consulta de manera efectiva.
