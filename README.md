@@ -3,6 +3,15 @@ Servicio sencillo en FastAPI que se conecta a una base de datos psql.
 
 ## Configuración del Entorno Virtual y Requisitos
 
+#### Requisitos previos
+
+Si no se tiene el equipo configurado adecuadamente la instalación de paquetes fallará, se recomienta tener instalado:
+
+```bash
+sudo apt-get install python3-dev
+sudo apt-get install libpq-dev
+```
+
 #### Creación de un Entorno Virtual (Opcional)
 
 Si deseas utilizar un entorno virtual para gestionar las dependencias de este proyecto de manera aislada, sigue estos pasos:
